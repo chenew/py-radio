@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
-from numpy import result_type
-from pandas.core.algorithms import rank
-import requests
 import urllib.request as ureq
 from bs4 import BeautifulSoup as bs
 import pandas as pd
-import re
 
 def sort_tracks():
     best_songs_url = "https://pitchfork.com/features/lists-and-guides/best-songs-2021/"
